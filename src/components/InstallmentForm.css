@@ -1,0 +1,82 @@
+/* InstallmentForm.css */
+.installment-form-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.installment-form-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.installment-form-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.installment-form-container input[type="text"],
+.installment-form-container input[type="number"],
+.installment-form-container select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.installment-form-container input[type="text"]:focus,
+.installment-form-container input[type="number"]:focus,
+.installment-form-container select:focus {
+  outline: none;
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.installment-form-container p {
+  font-size: 16px;
+  margin-top: 5px;
+  color: #555;
+}
+
+.installment-form-container .regular-installment-form,
+.installment-form-container .lump-sum-installment-form {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.installment-form-container .regular-installment-form h3,
+.installment-form-container .lump-sum-installment-form h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.installment-form-container .regular-installment-form label,
+.installment-form-container .lump-sum-installment-form label {
+  font-size: 16px;
+  color: #333;
+}
+
+.installment-form-container .regular-installment-form input[type="radio"],
+.installment-form-container .lump-sum-installment-form input[type="radio"] {
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.installment-form-container .regular-installment-form input[type="radio"] + label,
+.installment-form-container .lump-sum-installment-form input[type="radio"] + label {
+  font-size: 16px;
+  color: #333;
+}
+
+
